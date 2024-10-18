@@ -7,6 +7,7 @@ export default function page() {
         Welcome to the App
         <Image src="" alt="" width={100} height={100} />
       </h1>
+      
     </div>
   );
 }
