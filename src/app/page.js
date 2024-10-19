@@ -4,6 +4,7 @@ import Accueil from "./Components/Accueil";
 export default function page() {
   return (
     <div>
+<<<<<<< HEAD
       <header
         className="h-screen w-full flex justify-around bg-cover"
         style={{ backgroundImage: `url(/flotte-automobile.jpg)` }}
@@ -24,6 +25,13 @@ export default function page() {
         </div>
         <Accueil />
       </header>
+=======
+      <h1 className="text-center bg-red-500 font-bold text-3xl">
+        Welcome to the App
+        <Image src="" alt="" width={100} height={100} />
+      </h1>
+      
+>>>>>>> 90590ca656ac2f3ace71a3e32c13d686e04658df
     </div>
   );
 }
