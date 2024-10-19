@@ -1,8 +1,10 @@
-export default function page() {
+// components/MonComposant.js
+const Accueil = () => {
   return (
     <div>
-      <h1>Hello from Next.js</h1>
-      <p>Welcome to my Next.js app.</p>
+      <h1>Bonjour, ceci est mon composant !</h1>
     </div>
   );
-}
+};
+
+export default Accueil;
