@@ -4,7 +4,6 @@ export default function () {
       <button className="border border-blue-400 bg-blue-400 hover:bg-transparent px-8 py-2 rounded-lg">
         MON ESPACE
       </button>
-      0 hllkju{" "}
     </header>
   );
 }
