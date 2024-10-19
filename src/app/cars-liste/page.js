@@ -5,6 +5,7 @@ export default function page(){
     return (
         
         <>
+        
         <div className="bg-red-50 flex justify-center items-center p-4  md:w-640px flex -col ">
     <div className="bg-white rounded-lg shadow-lg overflow-hidden h-screen w-4xl w-full">
         <table className="w-full">
