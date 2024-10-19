@@ -1,5 +1,6 @@
 
 
+
 import Batfooter from "./Components/Batfooter"
 import Deuxièmesect from "./Components/Deuxièmesect"
 import Footer from "./Components/Footer"
@@ -15,6 +16,17 @@ export default function(){
             L’application Web de la <br/> 
             <strong className="font-bold">GESTION DE PARC AUTOMOBILE</strong>
         </h1>
+
+import Image from "next/image";
+
+export default function page() {
+  return (
+    <div>
+      <h1 className="text-center bg-red-500 font-bold text-3xl">
+        Welcome to the App
+        <Image src="" alt="" width={100} height={100} />
+      </h1>
+      
     </div>
 </main>
 
