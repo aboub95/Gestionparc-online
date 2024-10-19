@@ -14,3 +14,13 @@ export const fetchAllCars = async () => {
     throw error; // Vous pouvez également gérer l'erreur ici si nécessaire
   }
 };
+
+
+export const fetchCars = async (query) => {
+    const response = await fetch(`/api/cars?search=${query}`);
+    if (!response.ok) {
+      throw new Error('Erreur lors de la récupération des voitures');
+    }
+    return await response.json();
+  };k
+  
