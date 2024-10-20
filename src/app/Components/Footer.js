@@ -1,5 +1,7 @@
- import Image from "next/image"
+import Image from "next/image"
 import Link from "next/link"
+
+
 export default function(){
     return(
         <footer className="bg-[#2c2b2b] flex flex-col md:flex-row text-white justify-around py-12">
@@ -16,8 +18,8 @@ export default function(){
         </div>
     </div>
     <div className="bg-[#393939] py-12 px-4 md:px-20 md:w-1/3 bg-cover bg-center" style={{backgroundImage: `url(/b1d019e9c4352865d2963efac66d0c87.gif)`}}>
-        <Image src="/web-automobile.com_.png.svg" alt="" width="150" height="150" />
-        <p className="text-center">« SuiviDeFlotte surfe sur la <br/>
+        <Image src="/web-automobile.com_.png.svg" alt="photo" width="150" height="150" />
+        <p className="text-center">« SuiviDeFlotte surfe sur la <br/>   
            croissance »
         </p>
     </div>

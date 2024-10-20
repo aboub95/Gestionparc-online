@@ -27,5 +27,8 @@ body {
 }
 
 main{
-  background-image: url(/Gestionparc-online/Public/photos.png);
+  background-image: url(../../Public/photos.png);
+  background-size: cover;
+  background-position: center;
+  
 }

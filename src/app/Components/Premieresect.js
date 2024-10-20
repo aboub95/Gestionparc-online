@@ -12,7 +12,7 @@ export default function(){
                 de leur parc automobile</h4>
         </div>
         <div className="flex justify-center md:w-1/2">
-            <Image src="/liste-v-mobil.png" alt="" width={300} height={300} />
+            <Image src="/liste-v-mobil.png" alt="photo" width={300} height={300} />
         </div>
     </div>
     
